@@ -42,18 +42,18 @@
 
 // make a factorial function:
 
-  function factorial02(n) {
-    if (n < 0) {
+  function factorial(x) {
+    if (x < 0) {
       return NaN;
     }
     let num = 1;
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i <= x; i++) {
       num = num * i;
     }
     return num;
   }
 
-  console.log(factorial02(4)); 
+  console.log(factorial(4)); 
 
 
 //   you have a function that receive two arguments,
