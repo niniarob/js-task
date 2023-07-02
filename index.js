@@ -42,17 +42,6 @@
 
 // make a factorial function:
 
-  function factorial01(x) {
-    if (x === 0) {
-      return 1;
-    }
-    return x * factorial01( x - 1);
-  }
-  
-  console.log(factorial01(3)); 
-
-
-
   function factorial02(n) {
     if (n < 0) {
       return NaN;
