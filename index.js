@@ -62,7 +62,7 @@
 // if you cant buy at leat 1 Donat console "No Money, No Honey":
 
 function calculateDonat (money, Donat){
-    if (money > Donat || money > 0){
+    if (money > Donat){
         return money / Donat
     } else {
         console.log("no money,no honey")
